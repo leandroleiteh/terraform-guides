@@ -1,0 +1,55 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/aws.xml
+/copilot.data.migration.agent.xml
+/copilot.data.migration.edit.xml
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# IDE e build comuns
+*.iml
+.idea/
+*.log
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
