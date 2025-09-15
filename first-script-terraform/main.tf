@@ -15,11 +15,13 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "first-bucket" {
-  bucket = "my-tf-test-bucket-12343567890"
+  bucket = "my-tf-test-bucket-123435678910"
 
   tags = {
     Name        = "My bucket Teste"
     Environment = "Dev"
     managed-by  = "Terraform"
+    owner  = "Leandro Leite"
+    created-at  = "2025-09-10"
   }
 }
