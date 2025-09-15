@@ -11,3 +11,13 @@
 /aws.xml
 /copilot.data.migration.agent.xml
 /copilot.data.migration.edit.xml
+
+# Arquivos do Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+*.tfplan
+*.out
+.terraform/
+.terraform.lock.hcl
