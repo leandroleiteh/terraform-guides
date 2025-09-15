@@ -35,6 +35,7 @@ out/
 *.jar
 *.war
 *.ear
+*.out
 
 # Sistema operacional
 .DS_Store
